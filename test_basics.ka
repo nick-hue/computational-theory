@@ -1,0 +1,120 @@
+-- checking comments
+x: integer;
+y = 5: integer;
+s1, s2: str;
+x, y,z: scalar;
+test: boolean;
+isTall = True:boolean;
+-- testing line 8 comments
+isShort = False:boolean;
+const pi = 3.14159: scalar;
+const width = 300, height = 400: integer;
+w,z: Coordinates;
+c1, c2, c3: Car;
+grades[5]:scalar;
+timeArray[5], lengthArray[10], testing[3]:scalar;
+grades[]:int;
+if (w == 5 or x != 3 and y == 4):
+	x = 5;
+	--stringArray[] = timesArray;
+	return x;
+else:
+	return;
+endif;
+
+if (n < 0): 
+	break;
+	half := [ x + 3/2 for x: integer in b of 100] : scalar;
+	--x: integer;
+	y = 5: integer;
+	continue;
+	x += 5;
+	y -= 3;
+	z1 *= 10;
+	z2 /= 10;
+	result %= 6;
+	if (x < 3):
+		break;
+	endif;
+	if (y < 3 and w == 2):
+		continue;
+	endif;
+endif;
+if (w < 0): 
+	break;
+	continue;
+else:
+	break;
+endif;
+
+while(x>3):
+	x=y;
+	j = n - 1;
+	y=z;
+	break;
+	continue;
+	if (y<3):
+		return 100;
+	endif;
+
+endwhile;
+
+for i in [0:10:3]:
+	j : integer;
+	t = 5;
+	x = 4;
+	t = x;
+endfor;
+for i in [10:0:-2]:
+	j : integer;
+	t = 5;
+	x = 4;
+	t = x;
+endfor;
+
+for i in [0:20]:
+	t = 1;
+	x = 1;
+	t = x;
+endfor;
+
+for i in [20:0:-1]:
+	t = 1;
+	x = 1;
+	t = x;
+endfor;
+
+def f1(b: integer, e: integer) -> integer:
+return b ** e;
+enddef;
+
+def f2(s[]:str) -> integer:
+j : integer;
+return 100;
+enddef;
+
+def f3():return; enddef;
+
+def f4(prompt: str, msg:str):
+s1: str;
+x, y,z: scalar;
+test: boolean;
+isTall = True:boolean;
+a := [i for i:100]:integer;
+writeStr(prompt);
+writeStr(msg);
+--j = 5: integer;
+enddef;
+
+comp Circle:
+#x, #y: scalar;
+#radius: scalar;
+def area()-> scalar :  return  3.14   *    (#radius ** 2)    ;     enddef     ;
+def perimeter() -> scalar: return 2 * 3.14 *  #radius;  enddef ;
+def move(dx: scalar, dy: scalar): #x=#x+dx; #y=#y+dx; enddef;
+endcomp;
+
+
+
+
+

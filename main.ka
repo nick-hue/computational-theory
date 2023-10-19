@@ -1,0 +1,68 @@
+def main():
+	x: integer;
+	y = 5: integer;
+	s1, s2: str;
+	x, y,z: scalar;
+	test: boolean;
+	isTall = True:boolean;
+	-- testing line comments
+	isShort = False:boolean;
+	const pi = 3.14159: scalar;
+	const width = 300, height = 400: integer;
+	w,z: Coordinates;
+	c1, c2, c3: Car;
+	grades[5]:scalar;
+	timeArray[5], lengthArray[10], testing[3]:scalar;
+	grades[]:int;
+	
+	if (n < 0): 
+	break;
+	half := [ x + 3/2 for x: integer in b of 100] : scalar;
+	--x: integer;
+	y = 5: integer;
+	continue;
+	x += 5;
+	y -= 3;
+	z1 *= 10;
+	z2 /= 10;
+	result %= 6;
+	if (x < 3):
+		break;
+	endif;
+	if (y < 3 and w == 2):
+		continue;
+	endif;
+	endif;
+
+
+	for i in [0:10:3]:
+		j : integer;
+		t = 5;
+		x = 4;
+		t = x;
+	endfor;
+	for i in [10:0:-2]:
+		j : integer;
+		t = 5;
+		x = 4;
+		t = x;
+	endfor;
+
+	for i in [0:20]:
+		t = 1;
+		x = 1;
+		t = x;
+	endfor;
+
+	for i in [20:0:-1]:
+		t = 1;
+		x = 1;
+		t = x;
+	endfor;
+	
+	f = readInteger();
+	for i in [f:50:2]:
+		test1 := [(y*2) % 5.0 for x:integer in array of 100]:integer;
+	endfor;  
+
+enddef;
